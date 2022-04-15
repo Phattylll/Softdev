@@ -80,6 +80,7 @@
      </div> --> <!-- navbar-collapse.// -->
     </div> <!-- container-fluid.// -->
    </nav>
+   
    <style>
     body {font-family: Arial, Helvetica, sans-serif;}
     form {border: 3px solid #f1f1f1;}
@@ -129,9 +130,20 @@
     
     span.psw {
       float: right;
-      padding-top: 16px;
+      margin: -225px 0 12px 0;
+      /* padding-top: 16px; */
     }
-    
+  
+    span.ft {
+      float: right;
+      margin: -125px 0 12px 0;
+      /* padding-top: 16px; */
+    }
+    span.rgt {
+      float: right;
+      margin: -95px 0 12px 0;
+      /* padding-top: 16px; */
+    }
     /* Change styles for span and cancel button on extra small screens */
     @media screen and (max-width: 300px) {
       span.psw {
@@ -167,8 +179,10 @@
       </div>
     
       <div class="container" style="background-color:#f1f1f1">
-        <button type="button" class="cancelbtn">Cancel</button>
+        <!-- <button type="button" class="cancelbtn">Cancel</button> -->
         <span class="psw">Forgot <a href="#">password?</a></span>
+        <span class="ft">First time at KMITL square?</span>
+        <span class="rgt"><a href="#">Register here</a></span>
       </div>
     </form>
     
