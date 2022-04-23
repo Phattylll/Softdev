@@ -76,7 +76,7 @@ export default {
       width: 50%;
       padding: 7px 15px;
       -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); 
       background-color: rgb(243, 95, 16); 
     }
   span.psw {
@@ -117,9 +117,12 @@ export default {
 
 
 
+
 <script>
 export default {
     layout:"Hbar"
 }
+
+
 </script>
 

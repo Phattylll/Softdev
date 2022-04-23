@@ -1,9 +1,13 @@
 <template lang="html">
 <div class="center">
   <h1 style="color:rgb(243, 95, 16)">Reset Password</h1>
- <nuxt-link button @click="" to ="/users/Newpass"class="nextBt"><h3 style="color:white">Next</h3></button></nuxt-link>
-    <v-text-field v-model="email" label="Email" ></v-text-field> 
-
+ <nuxt-link button @click="" to ="/users/Login"class="cancelbtn"><h3 style="color:white">Change Password</h3></button></nuxt-link>
+    <v-text-field v-model="Newpassword" label="New password" type="password"></v-text-field>
+    <v-text-field
+      v-model="Newpassword"
+      label="Comfirm Password"
+      type="password"
+    ></v-text-field>
 
 </style>
 
@@ -38,17 +42,19 @@ export default {
   padding: 30px;
   padding-top: 50px;
   padding-bottom: 100px;
+      text-align: center;
 
 }
-  .nextBt {
+  .cancelbtn {
       margin: 0;
       position: absolute;
-      top: 470px;
+      text-align: center;
+      top: 370px;
       left: 50%;
       width: 50%;
       padding: 7px 15px;
       -ms-transform: translate(-50%, -50%);
-      transform: translate(-50%, -50%); 
+      transform: translate(-50%, -50%);
       background-color: rgb(243, 95, 16); 
     }
 
